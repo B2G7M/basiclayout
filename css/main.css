@@ -14,14 +14,20 @@ img {
 }
 
 header{
+	position: relative;
+	overflow: hidden;
 	text-align: center;
 	background-color: #e7001d;
 }
 
-h3{
+h2{
 	font-weight: bolder;
 	margin: 0;
 	padding: 1.5em;
+	font-style: normal;
+}
+.Sheng{
+	font-weight: bold;
 }
 
 .Banner{
