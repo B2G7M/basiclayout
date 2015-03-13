@@ -13,11 +13,73 @@ img {
 	width:50%;
 }
 
+ol{
+	padding: 0;}
+
+li{
+	display: inline-block;
+	list-style: none;
+	color: white;}
+
+nav li{
+ 	width: 50%;
+ 	border: 2px solid #111111;
+ 	background-color: #222222;
+ 	padding: 0.5em;
+ 	float: left;
+ 	}
+
+nav a{
+	display: block;
+	font-weight: bold;
+ 	color: white;
+	text-decoration: none;
+}
+
+nav ol{
+  overflow: hidden;
+  margin: auto;
+  padding: 0;
+	font-weight: bold;
+  	color: white;
+	text-decoration: none;}
+
 header{
 	position: relative;
 	overflow: hidden;
 	text-align: center;
 	background-color: #e7001d;
+}
+nav{
+	clear: both;
+	position: relative;
+	list-style-type: none;
+	color: white;
+}
+
+span{
+	display: block;
+	font-size: 50px;
+	top: 5px;
+}
+
+h1{
+	color: white;
+	font-size: 12px;
+	position: absolute;
+	clear:both;
+	top: 5px;
+	width: 100%;
+	text-align: center;
+	text-shadow: 2px 2px #111111;
+}
+
+h3{
+	color: white;
+	position: relative;
+	top: 1em;
+
+	text-align: center;
 }
 
 h2{
@@ -26,6 +88,14 @@ h2{
 	padding: 1.5em;
 	font-style: normal;
 }
+
+.Medallion{
+	width: 100px;
+	top: 1em;
+	position: relative;
+	padding-bottom: 30px;
+}
+
 .Sheng{
 	font-weight: bold;
 }
@@ -58,7 +128,7 @@ p{
 .Goat-Block {
 	text-align: center;
 	font color: white;
-	background-color: black;
+	background-color: #222222;
 	color: white;
 	font-style: italic;}
 
@@ -94,7 +164,7 @@ p{
 	float:right;}
 
 footer{
-	background: black;
+	background: #222222;
 	text-align: center;
 	color: white;
 	margin: 0;
