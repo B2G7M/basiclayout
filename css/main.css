@@ -6,6 +6,9 @@ html {
 *, *::before, *::after {
 	box-sizing:inherit;}
 
+body{
+	margin: 0;
+}
 img {
 	width:50%;
 }
@@ -16,20 +19,29 @@ header{
 }
 
 h3{
-	font-style: bolder;
+	font-weight: bolder;
+	margin: 0;
+	padding: 1.5em;
 }
 
 .Banner{
 	width:100%;
 	margin: 0;
-	padding: 0;
+	padding: 0;}
+
+p{
+	margin: 0;
+	padding: 1.5em;
 }
 
 .Dragon-Block {
 	text-align: center;
 	font color: white;
 	background-color: #e4c22a;
-	margin: 0;}
+	margin: 0;
+	padding: 0;
+	font-style: italic;
+	}
 
 .Dragon {
 	float:right;}
@@ -40,7 +52,9 @@ h3{
 .Goat-Block {
 	text-align: center;
 	font color: white;
-	background-color: black;}
+	background-color: black;
+	color: white;
+	font-style: italic;}
 
 .Goat {
 	float:left;}
@@ -51,7 +65,9 @@ h3{
 .Rooster-Block{
 	text-align: center;
 	font color: white;
-	background-color: #bc0017;}
+	background-color: #bc0017;
+	color: white;
+	font-style: italic;}
 
 .Rooster-Symbol {
 	float:left;}
@@ -62,20 +78,18 @@ h3{
 .Ox-Block {
 	text-align: center;
 	font color: white;
-	background-color: #e4c22a;}
+	background-color: #e4c22a;
+	font-style: italic;}
 
 .Ox {
 	float:left;}
 
 .Ox-Symbol {
-	float:right;
-}
+	float:right;}
 
 footer{
 	background: black;
 	text-align: center;
 	color: white;
 	margin: 0;
-	padding: 0;
-
-}
+	padding: 0;}
