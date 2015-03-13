@@ -1,0 +1,81 @@
+html {
+	box-sizing: border-box;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing:inherit;}
+
+img {
+	width:50%;
+}
+
+header{
+	text-align: center;
+	background-color: #e7001d;
+}
+
+h3{
+	font-style: bolder;
+}
+
+.Banner{
+	width:100%;
+	margin: 0;
+	padding: 0;
+}
+
+.Dragon-Block {
+	text-align: center;
+	font color: white;
+	background-color: #e4c22a;
+	margin: 0;}
+
+.Dragon {
+	float:right;}
+
+.Dragon-Symbol {
+	float:left;}
+
+.Goat-Block {
+	text-align: center;
+	font color: white;
+	background-color: black;}
+
+.Goat {
+	float:left;}
+
+.Goat-Symbol {
+	float:right;}
+
+.Rooster-Block{
+	text-align: center;
+	font color: white;
+	background-color: #bc0017;}
+
+.Rooster-Symbol {
+	float:left;}
+
+.Rooster {
+	float:right;}
+
+.Ox-Block {
+	text-align: center;
+	font color: white;
+	background-color: #e4c22a;}
+
+.Ox {
+	float:left;}
+
+.Ox-Symbol {
+	float:right;
+}
+
+footer{
+	background: black;
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding: 0;
+
+}
