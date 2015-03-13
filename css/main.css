@@ -27,6 +27,7 @@ nav li{
  	background-color: #222222;
  	padding: 0.5em;
  	float: left;
+ 	text-align: left;
  	}
 
 nav a{
@@ -37,9 +38,9 @@ nav a{
 }
 
 nav ol{
-  overflow: hidden;
-  margin: auto;
-  padding: 0;
+ 	overflow: hidden;
+ 	margin: auto;
+ 	padding: 0;
 	font-weight: bold;
   	color: white;
 	text-decoration: none;}
@@ -71,7 +72,7 @@ h1{
 	top: 5px;
 	width: 100%;
 	text-align: center;
-	text-shadow: 2px 2px #111111;
+	text-shadow: 0 2px 5px #111111;
 }
 
 h3{
@@ -96,8 +97,14 @@ h2{
 	padding-bottom: 30px;
 }
 
-.Sheng{
-	font-weight: bold;
+.Shengx{
+	color: white;
+	font-size: 29px;
+	text-shadow: 0 2px 5px #111111;
+	font-style: italic;
+	text-align: center;
+	width:100%;
+	position: absolute;
 }
 
 .Banner{
@@ -163,9 +170,18 @@ p{
 .Ox-Symbol {
 	float:right;}
 
+.Shengx-Picture{
+	position: relative;
+}
+
 footer{
 	background: #222222;
 	text-align: center;
 	color: white;
 	margin: 0;
-	padding: 0;}
+	padding: 1em;}
+
+footer a{
+	color: white;
+	text-decoration: none;
+}
