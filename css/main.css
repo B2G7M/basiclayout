@@ -1,18 +1,21 @@
 html {
 	box-sizing: border-box;
-	font-family: 'Noto Sans', sans-serif;
-}
+	font-family: 'Noto Sans', sans-serif;}
 
 *, *::before, *::after {
 	box-sizing:inherit;}
 
 body{
-	margin: 0;
-}
-img {
-	width:50%;
-}
+	margin: 0;}
 
+img {
+	width:50%;}
+
+p{
+	margin: 0;
+	padding: 1.5em;}
+
+/* List stylinging and*/
 ol{
 	padding: 0;}
 
@@ -44,26 +47,27 @@ nav ol{
 	font-weight: bold;
   	color: white;
 	text-decoration: none;}
+/*End of list styling*/ 
 
 header{
 	position: relative;
 	overflow: hidden;
 	text-align: center;
-	background-color: #e7001d;
-}
+	background-color: #e7001d;}
+
 nav{
 	clear: both;
 	position: relative;
 	list-style-type: none;
-	color: white;
-}
+	color: white;}
 
+/*Span affects the title symbols in the header*/
 span{
 	display: block;
 	font-size: 50px;
-	top: 5px;
-}
+	top: 5px;}
 
+/*Heading styling*/
 h1{
 	color: white;
 	font-size: 12px;
@@ -72,30 +76,28 @@ h1{
 	top: 5px;
 	width: 100%;
 	text-align: center;
-	text-shadow: 0 2px 5px #111111;
-}
+	text-shadow: 0 2px 5px #111111;}
+
+h2{
+	font-weight: bolder;
+	margin: 0;
+	padding: 1.5em;
+	font-style: normal;}
 
 h3{
 	color: white;
 	position: relative;
 	top: 1em;
 
-	text-align: center;
-}
+	text-align: center;}
+/*End of heading styling*/
 
-h2{
-	font-weight: bolder;
-	margin: 0;
-	padding: 1.5em;
-	font-style: normal;
-}
-
+/*Specific class styling*/
 .Medallion{
 	width: 100px;
 	top: 1em;
 	position: relative;
-	padding-bottom: 30px;
-}
+	padding-bottom: 30px;}
 
 .Shengx{
 	color: white;
@@ -104,18 +106,13 @@ h2{
 	font-style: italic;
 	text-align: center;
 	width:100%;
-	position: absolute;
-}
+	position: absolute;}
 
 .Banner{
 	width:100%;
 	margin: 0;
 	padding: 0;}
 
-p{
-	margin: 0;
-	padding: 1.5em;
-}
 
 .Dragon-Block {
 	text-align: center;
@@ -171,8 +168,8 @@ p{
 	float:right;}
 
 .Shengx-Picture{
-	position: relative;
-}
+	position: relative;}
+/*Specific class styling*/
 
 footer{
 	background: #222222;
@@ -181,7 +178,7 @@ footer{
 	margin: 0;
 	padding: 1em;}
 
+/*Nav styling for footer "Back to Top"*/
 footer a{
 	color: white;
-	text-decoration: none;
-}
+	text-decoration: none;}
